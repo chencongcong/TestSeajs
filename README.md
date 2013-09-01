@@ -1,30 +1,26 @@
 seajs demo test
 
-使用grunt构建
+Windows下使用grunt构建
 
 1.安装nodejs  
 
-2.安装grunt-cli
-
-npm install -g grunt-cli
-
+2.安装grunt-cli (参考:http://gruntjs.com/)
+### npm install -g grunt-cli
 3.通过命令提示行进入目录(我这里是进入的scripts目录):
 
-(参考来源:https://github.com/seajs/seajs/issues/672)
+(参考来源:https://github.com/seajs/seajs/issues/672 和
+http://hi.baidu.com/liuda101/item/54bcf8d0b6a65602d68ed057)
 
-这个目录要准备：package.json 和 Gruntfile.js 文件
+这个目录要准备：package.json 和 Gruntfile.js 这两个文件.
 
-4.安装grunt,目前最新的是直接在此目录：
+4.安装grunt,目前最新的是直接在此目录使用如下命令：
+### npm install  
+会自动检索package.json包里面的版本.并自动安装
 
-输入 npm install  来检索package.json包里面的版本.
+5.Gruntfile.js如果前面已经配置好.构建命令：
+### grunt build
 
-5.Gruntfile.js如果前面已经配置好.
-
-输入 grunt build
-
-6.生成配置过后的文件.
-
-index.html
+6.构建完成 index.html 使用如下:
 
 未构建前使用
 
