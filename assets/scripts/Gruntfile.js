@@ -9,15 +9,16 @@ module.exports = function(grunt) {
 			testApp:  {
 				options: {
 					idleading: "dist/"
-				},				                    
+				},
 				files : [{
 					cwd: "application",
 					src: "**/*.js",
 					filter: 'isFile',
 					dest: ".build/"
-				}]        
+				}]
 			}
 		},
+		/*合并*/
 		concat: {
 			options: {
 				paths: ['.'],
@@ -62,5 +63,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
-	grunt.registerTask('build', ['transport', 'concat','uglify','clean']);
+	grunt.registerTask('build', ['transport', 'concat', 'uglify', 'clean']);
 };
