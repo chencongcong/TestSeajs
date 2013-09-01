@@ -1,4 +1,6 @@
-使用grunt构建,测试
+seajs demo test
+
+使用grunt构建
 
 1.安装nodejs  
 
