@@ -8,10 +8,11 @@ Windows下使用grunt构建
 ### npm install -g grunt-cli
 3.通过命令提示行进入目录(我这里是进入的scripts目录):
 
-(参考来源:https://github.com/seajs/seajs/issues/672 和
-http://hi.baidu.com/liuda101/item/54bcf8d0b6a65602d68ed057)
-
 这个目录要准备：package.json 和 Gruntfile.js 这两个文件.
+
+(关于如何配置:参考来源:https://github.com/seajs/seajs/issues/672 和
+http://hi.baidu.com/liuda101/item/54bcf8d0b6a65602d68ed057 和 
+http://gruntjs.com/configuring-tasks#files )
 
 4.安装grunt,目前最新的是直接在此目录使用如下命令：
 ### npm install  
